@@ -14,7 +14,7 @@ const ProductAll = () => {
         let searchQuery = query.get('q') || '';
 
         // let url = `http://localhost:5000/products?q=${searchQuery}`;
-        let url = `https://my-json-server.typicode.com/jungwonjoo/webhnm/products?q=${searchQuery}`;
+        let url = `https://my-json-server.typicode.com/wonjoo88/webhnm/products?q=${searchQuery}`;
          
         let res = await fetch(url)
         let data = await res.json();
